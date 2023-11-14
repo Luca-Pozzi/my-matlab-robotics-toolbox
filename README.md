@@ -11,7 +11,6 @@ See `demo_*.m` files for some usage examples.
 * [How to use](#how-to-use)
     * [Demo](#demo)
         * [Upper-limb forward kinematics](#upper-limb-forward-kinematics)
-* [How to contribute](#how-to-contribute)
 * [Credits](#credits)
     * [Authors](#author)
     * [Contributors](#contributors)
@@ -37,11 +36,11 @@ The repo main elements are:
 * [`my-matlab-robotics-toolbox`](./my-matlab-robotics-toolbox/) folder. Contains the core functions implementing the simple robotics toolbox.
 > [!NOTE]
 > In the `my-matlab-robotics-toolbox` scripts, the following convention applies:
-> **cgr** prefix means the code is code-generation ready.    
-> **ncgr** means the code is **NOT** code-generation ready.
+> - **cgr** prefix means the code is code-generation ready.    
+> - **ncgr** means the code is **NOT** code-generation ready.
 * `demo_*.m` scripts. The `demo_*.m` files provide a sample usage of the toolbox. The name of the file should be self-explicative of the robot that it implements. These files should be considered the `main` file for out-of-the-box use. 
 > [!NOTE]
-> You can consider to add your own `demo_*.m` file to the repo. See the [How to contribute](#how-to-contribute) section
+> You can consider adding your own `demo_*.m` file to the repo.
 * `kine#.prj` files. MATLAB Coder projects examples. Ignore them for basic usage of the package.
 
 ### How to install
@@ -53,7 +52,7 @@ git clone https://github.com/Luca-Pozzi/my-matlab-robotics-toolbox.git
 Alternatively, you can download the repo as a `.zip` file and extract it locally.
 
 ### How to use
-* Create a global variable `N_DOFS` and define the number of degree-of-freedom of the robot in it. The reason why global variable is used is because I keep having problems in using the dynamic memory allocation for MATLAB coder. Therefore, I use global variable to define the dimension of the necessary static arrays.
+* Create a global variable `N_DOFS` and define the number of degrees-of-freedom of the robot in it. The reason why a global variable is used is because I keep having problems in using the dynamic memory allocation for MATLAB coder. Therefore, I use a global variable to define the dimension of the necessary static arrays.
 > [!NOTE]
 > The above problem affects you **only** if you are interested in compiling the MATLAB code.
 * Create the robot structure with `cgr_create`.
@@ -67,9 +66,6 @@ Alternatively, you can download the repo as a `.zip` file and extract it locally
 
 #### Demo
 ##### Upper-limb forward kinematics
-TODO.
-
-### How to contribute
 TODO.
 
 #### Credits
