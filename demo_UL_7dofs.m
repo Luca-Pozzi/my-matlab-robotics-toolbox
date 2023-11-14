@@ -14,14 +14,14 @@ clc
 %% Add path to `my-matlab-robotics-toolbox`
 addpath(".\my-matlab-robotics-toolbox\")
 
-%% Creation of upper limb model with DH parameters
-% q1 - Shuolder adb/add
-% q2 - Shuolder f/e
-% q3 - ??
+%% Upper-limb model DH parameters
+% q1 - Shoulder adb/add
+% q2 - Shoulder f/e
+% q3 - Humeral rotation
 % q4 - Elbow f/e
-% q5 - wrist deviation
-% q6 - wrist f/e
-% q7 - forearm pron/sup
+% q5 - Wrist deviation
+% q6 - Wrist f/e
+% q7 - Forearm pron/sup
 
 global N_DOFS;
 N_DOFS = 7;
