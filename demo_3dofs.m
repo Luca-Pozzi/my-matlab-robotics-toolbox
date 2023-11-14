@@ -3,6 +3,9 @@ clc;
 clear all;
 close all;
 
+%% Add path to `my-matlab-robotics-toolbox`
+addpath(".\my-matlab-robotics-toolbox\")
+
 %% Graphic
 g = ncgr_graphic();
 
