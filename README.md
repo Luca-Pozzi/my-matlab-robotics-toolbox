@@ -11,9 +11,11 @@ See `demo_*.m` files for some usage examples.
 * [How to use](#how-to-use)
     * [Demo](#demo)
         * [Upper-limb forward kinematics](#upper-limb-forward-kinematics)
+* [Troubleshooting](#troubleshooting)
 * [Credits](#credits)
-    * [Authors](#author)
+    * [Authors](#authors)
     * [Contributors](#contributors)
+    * [Maintainers](#maintainers)
 
 ## Introduction
 A simple and straightforward implementation of the DH-parameters in MATLAB.
@@ -68,10 +70,17 @@ Alternatively, you can download the repo as a `.zip` file and extract it locally
 ##### Upper-limb forward kinematics
 TODO.
 
+### Troubleshooting
+Issues with the present package are tracked in the repo [Issues](https://github.com/Luca-Pozzi/my-matlab-robotics-toolbox/issues?q=) page.
+If you encounter a new problem, open a new Issue or [contact a maintainer](#maintainers).
+
 #### Credits
-### Author
+### Authors
 - Auralius Manurung, manurunga@yandex.com
 
 ### Contributors
 - Marta Gandolla, marta.gandolla@polimi.it
+- Luca Pozzi, luca.pozzi@polimi.it
+
+### Maintainers
 - Luca Pozzi, luca.pozzi@polimi.it
