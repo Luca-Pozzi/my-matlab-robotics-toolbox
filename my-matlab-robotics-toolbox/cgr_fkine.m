@@ -26,9 +26,9 @@ T = repmat(zeros(4), 1, 1, N_DOFS);
 
 for i = 1 : N_DOFS
     if r.type(i) == 'r'
-        r.theta(i) = q(i);
+        r.theta(i) = r.theta(i) + q(i);
     elseif r.type(i) == 'p'
-        r.d(i) = q(i);
+        r.d(i) = r.d(i) + q(i);
     end
 end
 
