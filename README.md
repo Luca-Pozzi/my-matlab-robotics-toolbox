@@ -74,13 +74,13 @@ TODO.
 Issues with the present package are tracked in the repo [Issues](https://github.com/Luca-Pozzi/my-matlab-robotics-toolbox/issues?q=) page.
 If you encounter a new problem, open a new Issue or [contact a maintainer](#maintainers).
 
-#### Credits
-### Authors
+### Credits
+#### Authors
 - Auralius Manurung, manurunga@yandex.com
 
-### Contributors
+#### Contributors
 - Marta Gandolla, marta.gandolla@polimi.it
 - Luca Pozzi, luca.pozzi@polimi.it
 
-### Maintainers
+#### Maintainers
 - Luca Pozzi, luca.pozzi@polimi.it
